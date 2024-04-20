@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(14, 13, 13);
+    color: #fff ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    padding: 1.1rem;
+    background-color: #3C5B6F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 1.7rem;
+    color: #fff;
+    font-weight: 600;
+    cursor: default;
+}
+.nav a{
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    transition: 0.5s;
+}
+.nav a:hover{
+    color: aquamarine;
+}
+section{
+    min-height: 100vh;
+    padding: 6rem 6rem 2rem;
+}
+span{
+    color: #3C5B6F;
+}
+.casa-content p{
+    margin-top: 20px;
+}
+.casa, .sobre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.casa .img, .sobre .casa{
+    width: 100%;
+}
+.casa-content h1, .sobre-content h1{
+    font-weight: 700;
+    font-size: 30px;
+}
+div.rede-social a{
+    font-size: 40px;
+    gap: 30px;
+    color: #3C5B6F;
+}
+p{
+    font-size: 18px;
+}
+.servicos{
+    text-align: center;
+    font-size: 18px;
+}
+.servicos-container{
+    display: flex;
+    gap: 40px;
+}
+.servicos-box i{
+    font-size: 70px;
+    margin-top: 40px;
+}
+.portfolio h2{
+    text-align: center;
+    font-size: 30px;
+}
+.portfolio .layout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 50px;
+    
+}
+.layout a{
+    color: #3C5B6F;
+    font-size: 40px;
+}
+.portfolio h4{
+    font-size: 20px;
+}
+
+.contacto{
+    font-size: 50px;
+    text-align: center;
+}
+.sobre p{
+    margin-top: 20px;
+}
+img{
+    width: 280px;
+    height: 300px;
+}
+footer{
+    border-top: 1px solid #3C5B6F;
+    text-align: center;
+}
